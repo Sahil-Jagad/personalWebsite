@@ -25,14 +25,14 @@ export default {
             type: "string",
             options: {
                 list: [
-                    {value: "personal", title: "Personal"},
-                    {value: "school", title: "School"},
-                    {value: "client", title: "Client"},
+                    {value: "Personal", title: "Personal"},
+                    {value: "School", title: "School"},
+                    {value: "Client", title: "Client"},
                 ]       
             },
         },
         {
-            name: "Link",
+            name: "link",
             type: "url",
         },
         {
@@ -47,7 +47,5 @@ export default {
                 layout: "tags",
             },
         }
-
-
     ]
 }
